@@ -9,8 +9,8 @@ return (
         <div className="flex items-center justify-between">
         <div className="text-white font-bold text-lg">Skaalevik</div>
         <div className="space-x-4">
-            <a href="#" className="text-white hover:text-gray-600 transition duration-300 ease-in-out">Home</a>
-            <a href="#" className="text-white hover:text-gray-600 transition duration-300 ease-in-out">Om meg</a>
+            {/* <a href="#" className="text-white hover:text-gray-600 transition duration-300 ease-in-out">Home</a>
+            <a href="#" className="text-white hover:text-gray-600 transition duration-300 ease-in-out">Om meg</a> */}
         </div>
         </div>
     </div>
