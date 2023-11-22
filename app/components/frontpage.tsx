@@ -14,16 +14,18 @@ const FrontPage: React.FC = () => {
         <div className="hidden md:block mt-15">
           <p>19-year-old coding enthusiast who prefers front-end development.</p>
           <p>I love creating visually appealing and user-friendly interfaces.</p>
+          <p className="mt-20 text-gray">Site is under development</p>
         </div>
       </div>
       <div className="flex-shrink-0 order-first md:order-none ">
         <div className="flex justify-center md:justify-start mt-10 ">
-          <Image src={meg} alt="Marcus Skålevik" width={200} height={200} className="md:w-auto md:h-auto" />
+          <Image src={meg} alt="Marcus Skålevik" width={200} height={200} className="md:w-auto md:h-auto grayscale" />
         </div>
       </div>
       <div className="text-center md:text-left md:pl-8 mt-4 md:mt-0 order-last md:order-none md:hidden" style={{ marginBottom: "20px" }}>
         <p>19-year-old coding enthusiast who prefers front-end development.</p>
         <p>I love creating visually appealing and user-friendly interfaces.</p>
+        <p>Site is under development</p>
       </div>
     </div>
   );
