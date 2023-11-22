@@ -18,6 +18,7 @@ const config: Config = {
         education: '#B49E71',
         neonPink: '#f202ea',
         lightbrown: '#E6E3DD',
+        card: '#F4E7D5',
       },
     },
   },
