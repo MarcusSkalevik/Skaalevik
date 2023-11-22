@@ -18,7 +18,7 @@ const FrontPage: React.FC = () => {
         </div>
       </div>
       <div className="flex-shrink-0 order-first md:order-none ">
-        <div className="flex justify-center md:justify-start mt-10 ">
+        <div className="flex justify-center md:justify-start mt-32 ">
           <Image src={meg} alt="Marcus Skålevik" width={200} height={200} className="md:w-auto md:h-auto grayscale" />
         </div>
       </div>
