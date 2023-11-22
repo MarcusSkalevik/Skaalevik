@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="p-4 fixed top-0 w-full z-10">
+    <nav className="p-0 fixed top-0 w-full z-10">
       <div className="container mx-auto">
         <div className="flex items-center justify-center"> {/* Center the content */}
           <div className="text-white font-bold text-lg ">
